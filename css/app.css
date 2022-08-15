@@ -21,6 +21,33 @@ body {
 /* ============================ */
 /* ========== HEADER ========== */
 /* ============================ */
+#container {
+  width: 75.0625em;
+  height: 4.375em;
+  position: absolute;
+  top: 1.3125em;
+  left: 7.4375em;
+}
+
+#service {
+  color: #303e49;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  width: 2.75em;
+  height: 1.5em;
+  margin: 2.75em 29.125em;
+  text-align: center;
+}
+#why {
+  color: #546c80;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: 400;
+  width: 3.875em;
+  height: 1.5em;
+  margin: 2.75em 38.75em;
+}
 
 /* ============================ */
 /* ========= SERVICE 1 ======== */
