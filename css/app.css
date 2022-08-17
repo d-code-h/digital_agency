@@ -22,6 +22,147 @@ body {
 /* ========== HEADER ========== */
 /* ============================ */
 
+nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1.3125em;
+  left: 4.375em;
+  margin-left: em;
+  width: 75.0625em;
+  height: 4.375em;
+}
+#uniontech {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1.3125em;
+  left: 1.4375em;
+  margin-left: 10.4375em;
+  width: 6.125em;
+  height: 4.375em;
+}
+#union {
+  position: absolute;
+  top: 17.8%;
+  right: 19.64%;
+  left: 2.445em;
+  margin-left: 2.445em;
+  bottom: 0%;
+  width: 1.56375em;
+  height: 2.5em;
+  margin: 0 0.445em;
+}
+#tech {
+  position: absolute;
+  top: 2.1875em;
+  font-size: 1.375em;
+  font-weight: 700;
+  line-height: 1.5em;
+  width: 6.125em;
+  height: 1.5em;
+  margin: 0 0;
+  vertical-align: top;
+}
+ul {
+  display: inline-block;
+  position: absolute;
+  top: 1.75em;
+  margin-left: 22.5625em;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+#serve {
+  color: var(--gray-color);
+  font-weight: 500;
+}
+#why,
+#price,
+#review {
+  color: #546c80;
+  margin-left: 3em;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#quotes {
+  position: absolute;
+  top: 1.9375em;
+  color: var(--whte-color);
+  background-color: var(--gray-color);
+  border-radius: 0.625em;
+  padding: 0.9375em 1em;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.25em;
+  width: 8.9375em;
+  height: 3.125em;
+  margin-left: 63.6875em;
+}
+#thin {
+  position: absolute;
+  top: 6.5625em;
+  left: -8.9em;
+  width: 15.655em;
+  height: 15.5025em;
+}
+#wsd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 41.3125em;
+  height: 18.4375em;
+  margin-top: 15em;
+  margin-bottom: 8em;
+}
+#wrd,
+#soln,
+#dlvd {
+  /* font-family: Sofia Pro; */
+  font-weight: 600;
+  font-size: 4em;
+  line-height: 1.2586em;
+  letter-spacing: 0.16em;
+}
+#dlvd {
+  color: var(--blue-color);
+}
+#ellipse {
+  width: 1em;
+  height: 1em;
+  margin-left: 2.5em;
+}
+#man {
+  position: absolute;
+  top: 6.191875em;
+  margin-left: 13.6875em;
+  width: 43.283125em;
+  height: 41.3225em;
+}
+#getstarted,
+#learnmore {
+  border-radius: 0.625em;
+  padding: 0.75em 1em;
+}
+#getstarted {
+  color: var(--whte-color);
+  background-color: var(--blue-color);
+  margin-left: 7.5em;
+}
+#learnmore {
+  color: var(--blue-color);
+  margin-left: 3em;
+  border: 0.0625em solid;
+}
+#logo {
+  width: 64.625em;
+  margin-top: 3.625em;
+  margin-left: 7.5em;
+}
+
 /* ============================ */
 /* ========= SERVICE 1 ======== */
 /* ============================ */
@@ -36,4 +177,4 @@ body {
 
 /* ============================ */
 /* ========== FOOTER ========== */
-/* ============================ */
+/* ============================ */ ;
