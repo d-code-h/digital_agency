@@ -74,6 +74,9 @@ li {
   display: inline-block;
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 #serve {
   color: var(--gray-color);
   font-weight: 500;
