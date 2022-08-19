@@ -2,14 +2,6 @@
 /* ========== SETUPS ========== */
 /* ============================ */
 
-:root {
-  --whte-color: #ffffff;
-  --dark-color: #1d2225;
-  --blue-color: #3a78f2;
-  --gray-color: #f5f5f5;
-  --gray-color-2: #f8f8f8;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -17,6 +9,7 @@
 body {
   font-family: "Oxanium", cursive;
   margin: 0;
+  width: 1440px;
   font-size: 100%;
 }
 
@@ -36,18 +29,38 @@ body {
 /* =========== ABOUT ========== */
 /* ============================ */
 #about {
-  background-color: var(--gray-color);
-  height: 85vh;
+  background-color: rgb(245, 245, 245);
+  padding-top: 6.625rem;
+  padding-bottom: 6.625rem;
 }
 #about__container {
   width: 80%;
-  display: grid;
+  height: auto;
   margin: auto;
 }
 #about__header {
-  width: 40%;
+  width: 51%;
   margin: 2rem auto;
+}
+
+#about__header * {
   text-align: center;
+}
+
+#about__header p {
+  width: 24rem;
+  margin: auto;
+  color: rgb(48, 62, 73);
+  line-height: 1.6875rem;
+  font-size: 1.5rem;
+}
+#about__header h2 {
+  line-height: 4.375rem;
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin: 0;
+  margin-bottom: 3.3125rem;
+  color: rgba(35, 36, 37, 1);
 }
 
 #about__body {
@@ -55,13 +68,26 @@ body {
   justify-content: space-between;
 }
 .about__body__client {
-  width: 30%;
-  padding: 0.8rem 1.5rem;
-  background-color: var(--gray-color-2);
+  width: 24rem;
+  padding: 1.69rem 2.06rem;
+  background-color: rgb(248, 248, 248);
+}
+.about__body__client:nth-of-type(2) {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .about__body__client p {
   font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+.about__body__client p:nth-of-type(1) {
+  margin-top: 2.125rem;
+}
+.about__body__client p:nth-of-type(2) {
+  margin: 0;
+  margin-top: 2rem;
 }
 .about__body__client:hover {
   background-color: #fffefe;
@@ -86,18 +112,33 @@ hgroup h3,
 hgroup h6 {
   margin: 0;
 }
+
+hgroup h3 {
+  color: rgb(48, 62, 73);
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
 hgroup h6 {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.302rem;
   font-weight: 500;
+  color: rgba(124, 124, 124, 1);
 }
 
 #about button {
-  background-color: var(--blue-color);
-  color: var(--whte-color);
+  color: rgba(248, 248, 248, 1);
+  background: rgba(58, 120, 242, 1);
+  border-radius: 0.4rem;
   border: none;
-  width: 8rem;
-  height: 3rem;
+  width: 10.875rem;
+  height: 4rem;
   display: block;
-  margin: 0.5rem auto;
+  margin: 3.125rem auto;
+  padding: 0.75rem 1rem;
+}
+
+#about button:hover {
+  cursor: pointer;
 }
 /* ============================ */
 /* ========== FOOTER ========== */
