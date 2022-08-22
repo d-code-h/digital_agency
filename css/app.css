@@ -251,7 +251,7 @@ h1 .delivered {
 #services-2__header {
   background-color: rgba(58, 120, 242, 1);
   height: 46.4375rem;
-  margin-bottom: 29.15625rem;
+  margin-bottom: 26.15625rem;
   position: relative;
 }
 
@@ -315,19 +315,92 @@ button.play {
   z-index: -1;
 }
 
-button.play img {
-}
-#services-2__body {
-  display: block;
+#services-2__body .row {
+  display: flex;
 }
 
-#services-2__body .message {
-  width: 45%;
-  display: inline-block;
+.row:first-of-type {
+  margin-bottom: 3.375rem;
 }
-#services-2__body .message:nth-of-type(1),
-#services-2__body .message:nth-of-type(3) {
+
+.message {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+.message:nth-of-type(1),
+.message:nth-of-type(3) {
   margin-right: 6.05875rem;
+}
+
+.message img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.1875rem;
+}
+
+.message .serve {
+  width: 100%;
+}
+
+.serve h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: rgba(29, 34, 37, 1);
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.serve p {
+  color: rgba(124, 124, 124, 1);
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin-bottom: 0;
+}
+/* Services footer */
+#services-2__footer {
+  background-color: #3a78f2;
+  display: flex;
+  justify-content: space-between;
+  padding: 4.0625rem 7.5rem 4.375rem 7.5rem;
+  margin: 0;
+  margin-top: 8.1875rem;
+}
+
+.footer__content {
+  border-right: 0.125rem solid rgba(255, 255, 255, 1);
+  padding: 0;
+  padding-right: 3.3rem;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+.footer__content:first-of-type {
+  padding-left: 0;
+}
+.footer__content:last-of-type {
+  padding-right: 0;
+}
+.footer__content:last-of-type {
+  border: none;
+}
+
+.footer__content h3 {
+  font-size: 2.8125rem;
+  margin: 0;
+  font-weight: 700;
+  line-height: 3.299375rem;
+  color: rgb(255, 255, 255);
+}
+
+.footer__content p {
+  color: rgba(220, 220, 220, 1);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: -0.02rem;
+  text-align: left;
 }
 /* ============================ */
 /* =========== ABOUT ========== */
