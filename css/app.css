@@ -9,7 +9,6 @@
 body {
   font-family: "Oxanium", cursive;
   margin: 0;
-  width: 1440px;
   font-size: 100%;
 }
 
@@ -159,7 +158,7 @@ h1 .delivered {
   line-height: 4.375rem;
   margin: 1rem auto;
 }
-#services-1 p:nth-of-type(1) {
+#services-1 > p {
   font-size: 1.5rem;
   line-height: 1.6875rem;
   margin: 0;
@@ -202,9 +201,6 @@ h1 .delivered {
 .service:hover h4 {
   color: #ffffff;
 }
-.service:hover .img {
-  background-color: #ffffff;
-}
 
 .service .img {
   display: flex;
@@ -214,6 +210,10 @@ h1 .delivered {
   height: 5.5rem;
   background-color: #1d2225;
   border-radius: 0.5625rem;
+}
+
+.service:hover .img {
+  background-color: #ffffff !important;
 }
 
 .service h3 {
