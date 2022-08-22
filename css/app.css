@@ -248,6 +248,87 @@ h1 .delivered {
 /* ========= SERVICE 2 ======== */
 /* ============================ */
 
+#services-2__header {
+  background-color: rgba(58, 120, 242, 1);
+  height: 46.4375rem;
+  margin-bottom: 29.15625rem;
+  position: relative;
+}
+
+#services-2__header .content-container {
+  padding-top: 6.375rem;
+}
+
+#services-2__header h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#services-2__header p {
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  line-height: 1.6875rem;
+}
+#services-2__header h2 {
+  width: 31rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#services-2__header .video {
+  padding: 0;
+  margin-top: 6.625rem;
+  margin-bottom: 0;
+  display: block;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+video {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button.play {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#img {
+  position: relative;
+}
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+button.play img {
+}
+#services-2__body {
+  display: block;
+}
+
+#services-2__body .message {
+  width: 45%;
+  display: inline-block;
+}
+#services-2__body .message:nth-of-type(1),
+#services-2__body .message:nth-of-type(3) {
+  margin-right: 6.05875rem;
+}
 /* ============================ */
 /* =========== ABOUT ========== */
 /* ============================ */
