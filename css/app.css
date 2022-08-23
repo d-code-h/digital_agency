@@ -404,9 +404,46 @@ button.play {
 }
 
 /* ============================ */
-/* =========== Pricing ========== */
+/* ========== Pricing ========= */
 /* ============================ */
+#pricing-container {
+  width: 84%;
+  margin: 7.4375rem auto 8.4375rem auto;
+}
+#pricing-container h2,
+#pricing-container p {
+  text-align: center;
+}
 
+#pricing-container h2,
+#pricing-container p {
+  margin: 0;
+}
+#pricing-container h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 4.375rem;
+  color: rgb(35, 36, 37);
+}
+
+#pricing-container p {
+  font-size: 1.5rem;
+  line-height: 1.6875rem;
+  color: #303e49;
+}
+table {
+  margin-top: 4.0625rem;
+  margin-bottom: 8.5625rem;
+}
+table thead,
+table tr:nth-child(even) {
+  background-color: rgba(58, 120, 242, 0.08);
+}
+
+tfoot {
+  background-color: rgb(255, 255, 255);
+}
 /* ============================ */
 /* =========== ABOUT ========== */
 /* ============================ */
