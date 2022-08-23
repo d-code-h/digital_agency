@@ -485,7 +485,7 @@
                       <input
                         type="text"
                         name="company"
-                        id="company"
+                        id="comp"
                         placeholder="Text here"
                       />
                     </span>
@@ -581,75 +581,83 @@ Start typing here </textarea
       </section>
 
       <!-- Footer -->
-      <footer>
-        <section>
-          <img src="../img/footer/techlogo.png" alt="techtack_logo" />
-          <h1>TechTack</h1>
-          <p>
-            more recently with desktop publishing software like versions 4188
-            North Street Eastern Standard Time (EST)
-          </p>
-        </section>
+      <div id="footer">
+        <footer>
+          <div class="footer-content">
+            <section id="footer-logo">
+              <h5>
+                <img src="../img/footer/techlogo.png" alt="techlogo" /> TechTack
+              </h5>
+              <p>
+                more recently with desktop publishing software like versions
+              </p>
+              <p>4188 North Street</p>
+              <p>Eastern Standard Time (EST)</p>
+            </section>
+            <section id="support">
+              <h6>Support</h6>
+              <ul>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Documentation</a></li>
+              </ul>
+            </section>
+            <section id="company">
+              <h6>Company</h6>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Portfolio</a></li>
+              </ul>
+            </section>
+            <section id="company2">
+              <h6>Company</h6>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Portfolio</a></li>
+              </ul>
+            </section>
+            <section id="subscribe">
+              <h6>Subscribe To Our Newsletter</h6>
+              <p>
+                more recently with desktop publishing like Aldus PageMaker
+                including
+              </p>
+              <form action="#" method="POST" id="subcribe">
+                <input
+                  type="email"
+                  name="sub-email"
+                  id="sub-email"
+                  placeholder="Enter Your Email"
+                />
+                <input type="submit" value="Subscribe" />
+              </form>
+            </section>
+          </div>
 
-        <section id="support">
-          <h5>Support</h5>
-          <ul>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Documentation</a></li>
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Documentation</a></li>
-            <li><a href="#">Documentation</a></li>
-          </ul>
-        </section>
-
-        <section id="company_new">
-          <h5>Company</h5>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Portfolio</a></li>
-          </ul>
-        </section>
-
-        <section id="Company">
-          <h5>Company</h5>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Portfolio</a></li>
-          </ul>
-        </section>
-
-        <section>
-          <h4>Subscribe To Our Newsletter</h4>
-          <p>
-            More recently with desktop publishing like aldus pagemaker including
-          </p>
-        </section>
-
-        <section>
-          <form action="#" method="get">
-            <input
-              type="email"
-              id="subscribe"
-              name="subscribe"
-              placeholder="enter your email"
-            />
-            <input type="submit" value="Subscribe" />
-          </form>
-        </section>
-
-        <section>
-          <p>@2021 Crimson, Inc All rights reserved</p>
-          <img src="../img/footer/facebook.png" alt="facebook_logo" />
-          <img src="../img/footer/github.png" alt="github_logo" />
-          <img src="../img/footer/linkedin.png" alt="linkenin_logo" />
-          <img src="../img/footer/messager.png" alt="messanger_logo" />
-          <img src="../img/footer/techlogo.png" alt="techlogo" />
-        </section>
-      </footer>
+          <div class="copyright">
+            <small>
+              <span class="copyright-msg"
+                >@2021 Crimson, Inc All rights reserved</span
+              >
+              <span class="copyright-logos">
+                <img src="../img/footer/facebook.png" alt="Facebook" /><img
+                  src="../img/footer/messanger.png"
+                  alt="Messenger"
+                /><img src="../img/footer/linkedin.png" alt="linkedin" /><img
+                  src="../img/footer/github.png"
+                  alt="github"
+                />
+              </span>
+            </small>
+          </div>
+        </footer>
+      </div>
     </div>
 
     <!-- External script -->
